@@ -30,6 +30,7 @@ Besides the :envvar:`JUPYTER_CONFIG_DIR`, additional directories to search can b
 specified through :envvar:`JUPYTER_CONFIG_PATH`.
 
 .. envvar:: JUPYTER_CONFIG_PATH
+
    Set this environment variable to provide extra directories for the config search path.
    :envvar:`JUPYTER_CONFIG_PATH` should contain a series of directories, seperated by
    `` os.pathsep`` (``;`` on Windows, ``:`` on Unix).
@@ -114,7 +115,7 @@ As mentioned above, to list the config directories currently being used you can 
 
    jupyter --paths
 
-The following command shows the data directory specificially:::
+The following command shows the data directory specifically:::
 
    jupyter --data-dir
 
